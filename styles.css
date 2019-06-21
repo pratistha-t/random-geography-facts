@@ -1,0 +1,118 @@
+h1 {
+  color: #3b7add;
+  justify-content: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+}
+
+img {
+  justify-content: center;
+}
+body {
+  background-color: #ccdfff;
+
+}
+.na {
+position: relative;
+left: 440px;
+bottom: 400px;
+}
+
+.sa {
+position: relative;
+left: 420px;
+bottom: 230px;
+}
+
+.eu {
+position: relative;
+left: 550px;
+bottom: 420px;
+}
+
+.as {
+  position: relative;
+  left: 680px;
+  bottom: 420px;
+}
+
+.af {
+  position: relative;
+  left: 450px;
+  bottom: 280px;
+}
+
+.ao {
+position: relative;
+bottom:180px;
+left: 660px;
+}
+
+.an {
+position: relative;
+left: 240px;
+bottom: 30px;
+}
+
+@media screen and (max-width: 900px) {
+
+img {
+  position: relative;
+  bottom: 100px;
+  height: 800px;
+  width: 800px;
+  object-fit: contain;
+}
+
+.replace {
+  position: relative;
+  bottom: 300px;
+}
+
+  .na {
+  position: relative;
+  left: 160px;
+  bottom: 620px;
+  }
+
+  .sa {
+  position: relative;
+  left: 130px;
+  bottom: 470px;
+  }
+
+  .eu {
+  position: relative;
+  left: 230px;
+  bottom: 640px;
+  }
+
+  .as {
+    position: relative;
+    left: 340px;
+    bottom: 640px;
+  }
+
+  .af {
+    position: relative;
+    left: 140px;
+    bottom: 520px;
+  }
+
+  .ao {
+  position: relative;
+  bottom:450px;
+  left: 300px;
+  }
+
+  .an {
+  position: relative;
+  left: 10px;
+  bottom: 320px;
+  }
+}
